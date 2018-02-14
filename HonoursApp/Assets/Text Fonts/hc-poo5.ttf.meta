@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5f3f296b988ddc947b4a599724e8b03d
+timeCreated: 1518627962
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HCP Maru Gothic
+  fontNames:
+  - HCP Maru Gothic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

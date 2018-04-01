@@ -1,9 +1,26 @@
 fileFormatVersion: 2
 guid: 3e6fbd76d5209934c870350fbb2fe79d
-timeCreated: 1522443138
+timeCreated: 1522530486
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Katakana A Spritesheet_0
+    21300002: Katakana A Spritesheet_1
+    21300004: Katakana A Spritesheet_2
+    21300006: Katakana A Spritesheet_3
+    21300008: Katakana A Spritesheet_4
+    21300010: Katakana A Spritesheet_5
+    21300012: Katakana A Spritesheet_6
+    21300014: Katakana A Spritesheet_7
+    21300016: Katakana A Spritesheet_8
+    21300018: Katakana A Spritesheet_9
+    21300020: Katakana A Spritesheet_10
+    21300022: Katakana A Spritesheet_11
+    21300024: Katakana A Spritesheet_12
+    21300026: Katakana A Spritesheet_13
+    21300028: Katakana A Spritesheet_14
+    21300030: Katakana A Spritesheet_15
+    21300032: Katakana A Spritesheet_16
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -39,7 +56,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -56,7 +73,39 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -65,7 +114,245 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana A Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 480
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

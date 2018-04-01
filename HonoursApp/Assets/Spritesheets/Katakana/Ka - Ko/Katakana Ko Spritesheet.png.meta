@@ -1,9 +1,27 @@
 fileFormatVersion: 2
 guid: e7afccdfb12b4e4469b24fe4267c5dcb
-timeCreated: 1522443143
+timeCreated: 1522532420
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Katakana Ko Spritesheet_0
+    21300002: Katakana Ko Spritesheet_1
+    21300004: Katakana Ko Spritesheet_2
+    21300006: Katakana Ko Spritesheet_3
+    21300008: Katakana Ko Spritesheet_4
+    21300010: Katakana Ko Spritesheet_5
+    21300012: Katakana Ko Spritesheet_6
+    21300014: Katakana Ko Spritesheet_7
+    21300016: Katakana Ko Spritesheet_8
+    21300018: Katakana Ko Spritesheet_9
+    21300020: Katakana Ko Spritesheet_10
+    21300022: Katakana Ko Spritesheet_11
+    21300024: Katakana Ko Spritesheet_12
+    21300026: Katakana Ko Spritesheet_13
+    21300028: Katakana Ko Spritesheet_14
+    21300030: Katakana Ko Spritesheet_15
+    21300032: Katakana Ko Spritesheet_16
+    21300034: Katakana Ko Spritesheet_17
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -39,7 +57,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -56,7 +74,39 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 1024
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -65,7 +115,259 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1202
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 960
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 723
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 480
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Katakana Ko Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 318
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

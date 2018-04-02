@@ -84,7 +84,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Generator.cs" />
+    <Compile Include="Assets\Scripts\LearningMenu.cs" />
+    <Compile Include="Assets\Scripts\Letter.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PanelsControls.cs" />
+    <Compile Include="Assets\Scripts\Prompt.cs" />
+    <Compile Include="Assets\Scripts\Question.cs" />
     <Compile Include="Assets\Scripts\SoundClick.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

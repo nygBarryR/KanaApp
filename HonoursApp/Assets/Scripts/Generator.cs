@@ -9,7 +9,8 @@ public class Generator : MonoBehaviour {
     List<Letter> lettersToTest = new List<Letter>();
     Letter currentLetter;
     Question currentQuestion;
-    public int score = 0;
+    public Text correctText, incorrectText;
+    public int correctInt, incorrectInt;
     public int delayUntilNextQuestion = 3;
     public GameObject questionTitle;
     public GameObject[] questionAnswerButtons;
@@ -52,14 +53,19 @@ public class Generator : MonoBehaviour {
         }
         else
         {
+            lettersContainer.SetActive(true);
             foreach (Button button in letterButtons)
             {
                 button.GetComponent<Image>().color = letterDeselectedColour;
             }
 
-            score = 0;
-            lettersContainer.SetActive(true);
+            
             questionContainer.SetActive(false);
+            correctInt = 0;
+            correctText.text = correctInt.ToString();
+            incorrectInt = 0;
+            incorrectText.text = incorrectInt.ToString();
+
         }
     }
 
@@ -81,12 +87,15 @@ public class Generator : MonoBehaviour {
     {
         if (button.GetComponentInChildren<Text>().text == currentQuestion.correctAnswer)
         {
-            score++;
+            correctInt++;
+            correctText.text = correctInt.ToString();
             button.GetComponent<Image>().color = answerCorrectColour;
             Invoke("QuestionAnswered", delayUntilNextQuestion);
         }
         else
         {
+            incorrectInt++;
+            incorrectText.text = incorrectInt.ToString();
             button.GetComponent<Image>().color = answerIncorrectColour;
 
             foreach (GameObject answerButton in questionAnswerButtons)
@@ -111,4 +120,23 @@ public class Generator : MonoBehaviour {
             NewLetterTest();
         }
     }
+
+    public void CancelButton()
+    {
+
+        lettersToTest.Clear();
+        lettersContainer.SetActive(true);
+        foreach (Button button in letterButtons)
+        {
+            button.GetComponent<Image>().color = letterDeselectedColour;
+        }
+
+        questionContainer.SetActive(false);
+        correctInt = 0;
+        correctText.text = correctInt.ToString();
+        incorrectInt = 0;
+        incorrectText.text = incorrectInt.ToString();
+    }
+
+    
 }

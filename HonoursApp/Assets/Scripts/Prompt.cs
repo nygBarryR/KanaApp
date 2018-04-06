@@ -8,12 +8,12 @@ public class Prompt : MonoBehaviour {
 
     public void OpenInfoPanel ()
 {
-    infoPanel.SetActive(true);
-    Invoke("CloseInfoPanel", 2);
+    infoPanel.SetActive(true); // Opening the information prompt //
+    Invoke("CloseInfoPanel", 2); // Invoke means that after the Assigned value of 2 (equals seconds) the Function below will run //
 }
 
     public void CloseInfoPanel ()
 {
-    infoPanel.SetActive(false);
+    infoPanel.SetActive(false); // Closing the information prompt //
 }
 }
